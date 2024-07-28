@@ -1,9 +1,9 @@
 ---
 template: home.html
-title: Material for MkDocs
+title: PDFiles
 social:
   cards_layout_options:
-    title: Documentation that simply works
+    title: clean and stable source file.
 ---
 
-Welcome to Material for MkDocs.
+
