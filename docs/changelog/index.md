@@ -1,9 +1,9 @@
 # Changelog
 
-## Material for asdsd
+## Commit changes to version 5.3 (latest)
 
-### 9.5.30 <small>July 23, 2024</small> { id="9.5.30" }
+### 1.0.0 <small>July 29, 2024</small> { id="1.0.0" }
 
-- Fixed #7380: Navigation icons disappearing on hover in Safari
-- Fixed #7367: Blog readtime computation includes SVG text content
+- Fixed "Games option" client crash.
+- Fixed ranking-buttons hover.
 
