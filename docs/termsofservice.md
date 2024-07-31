@@ -18,10 +18,10 @@ We reserve the right to modify these Terms at any time. Any changes will be post
 
 We accept the following payment methods:
 
-- Paypal
-- Cryptovoucher
-- Bank Transfer (Available only for Romania): We currently accept bank transfers from only one country, but we are looking to expand!
-- Moneygram
+| Package      |                           | Price
+| :---------: | :----------------------------------: | :----------------------------------:
+| Paypal[^1] | :octicons-chevron-right-24: | **First** time free, then **15€** per installation
+| Server maintenance[^3] | :octicons-chevron-right-24: | Price may **vary**
 
 > The price is fixed and is calculated based on the bank rate available on the day of server purchase.
 

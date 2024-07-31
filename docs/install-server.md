@@ -2,7 +2,7 @@
 
 ??? tip "Visual installation of prodomo version 5 files"
 
-    `last update: 29.7.2024`
+    `last update: 31.7.2024`
 
     **Attention**! This video was recorded when the Prodomo project version was **5.3**. In the meantime, there is a chance that some changes may have occurred.
 
