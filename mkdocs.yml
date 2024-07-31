@@ -20,17 +20,17 @@
 
 # Project information
 site_name: Prodomo Files
-site_url: https://squidfunk.github.io/mkdocs-material/
-site_author: Martin Donath
+site_url: https://docs.prodomo-files.com
+site_author: Essex
 site_description: >-
-  What are you waiting for?
+  Click the button below to be redirected to the complete documentation.
 
 # Repository
-repo_name: essexhardmonkey/prodomofiles 
-repo_url: https://github.com/squidfunk/mkdocs-material
+repo_name: essexhardmonkey/PDF_server 
+repo_url: https://github.com/essexhardmonkey/PDF_server
 
 # Copyright
-copyright: Copyright &copy; 2016 - 2024 Martin Donath
+copyright: Copyright &copy; prodomo-files.com
 
 # Configuration
 theme:
@@ -109,17 +109,6 @@ extra:
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/squidfunk
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
-    - icon: fontawesome/brands/python
-      link: https://pypi.org/project/mkdocs-material/
-    - icon: fontawesome/brands/mastodon
-      link: https://fosstodon.org/@squidfunk
-    - icon: fontawesome/brands/x-twitter
-      link: https://x.com/squidfunk
 
 # Extensions
 markdown_extensions:

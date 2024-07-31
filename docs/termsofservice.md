@@ -20,8 +20,10 @@ We accept the following payment methods:
 
 | Package      |                           | Price
 | :---------: | :----------------------------------: | :----------------------------------:
-| Paypal[^1] | :octicons-chevron-right-24: | **First** time free, then **15€** per installation
-| Server maintenance[^3] | :octicons-chevron-right-24: | Price may **vary**
+| Paypal[^1] | :octicons-chevron-right-24: | :fontawesome-solid-check-double:{ .circle } (We accept PayPal payments **only** via the **'Friends & Family'** option. We **do not accept** PayPal payments from the **UAE**.)
+| Crypto[^2] | :octicons-chevron-right-24: | :fontawesome-solid-check-double:{ .circle } (:fontawesome-brands-btc:**BTC**, :fontawesome-brands-ethereum:**ETH**, :fontawesome-solid-network-wired:**Cryptovoucher**.)
+| Bank Transfer[^3] | :octicons-chevron-right-24: | :fontawesome-solid-check-double:{ .circle } (Currently only available in :flag_ro:.)
+| Money-gram[^4] | :octicons-chevron-right-24: | :fontawesome-solid-check-double:{ .circle }
 
 > The price is fixed and is calculated based on the bank rate available on the day of server purchase.
 
@@ -71,3 +73,7 @@ For any questions or concerns regarding these Terms, please contact us at [Conta
 
 [contact]: contact.md
 [privacy]: privacy.md
+[^1]: The Prodomo team accepts payments only through the 'Friends & Family' option as it is the most secure method of payment via PayPal.
+[^2]: The Prodomo team accepts payments via cryptocurrencies, as it is a secure and stable method. We only accept the currencies listed in the TABLE or vouchers.
+[^3]: Currently, we accept bank payments only within :flag_ro:.
+[^4]: For payments made via MoneyGram, the server will be provided only once the payment has been received.

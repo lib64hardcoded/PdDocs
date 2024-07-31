@@ -11,6 +11,8 @@ Feedback is always welcome! If you encounter a **problem** or have a **suggestio
 :octicons-bookmark-fill-24:{ .partners }[m2prodomo][prodomodownload]
 [prodomodownload]: https://easyupload.io/5f5bm3
 
-- The client can be tested for a maximum of one hour. To receive an account with server access, please contact [Essex][contact] or [Maruski][contact].
+## Request
 
-[contact]: contact.md
+We greatly appreciate that you are willing to take time out of your schedule to try our server.
+
+ However, we also value a pleasant atmosphere and cleanliness. To obtain a test account on the client, you need to **join our Discord server** and **submit a request** to **Essex** or **Maruski** to be provided with a test account.

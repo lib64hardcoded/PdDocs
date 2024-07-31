@@ -11,7 +11,7 @@ Prodomo relies on ==cleanliness==, ==arrangement==, and of course YOU! Below you
 ## What does the project contain?
 
 ??? success "Visual presentation of the client"
-    `last update: 28.7.2024`
+    `last update: 1.8.2024`
 
     **Attention**! This video was recorded when the Prodomo project version was **5.3**. In the meantime, there is a chance that some changes may have occurred. Please consult the change log/test client.
 
