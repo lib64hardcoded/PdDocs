@@ -1,4 +1,4 @@
-name: ci 
+name: rasamatii
 on:
   push:
     branches:
