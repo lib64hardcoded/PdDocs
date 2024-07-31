@@ -2,7 +2,7 @@
 
 Prodomo relies on ==cleanliness==, ==arrangement==, and of course YOU! Below you will find essential information about the Prodomo project and how YOU can be part of it. What are you waiting for?
 
-!!! quote annotate 
+!!! quote annotate "Join us!"
 
     You will find most information and changelogs much easier on the (1)Prodomo discord!
 
@@ -15,9 +15,7 @@ Prodomo relies on ==cleanliness==, ==arrangement==, and of course YOU! Below you
 
     **Attention**! This video was recorded when the Prodomo project version was **5.3**. In the meantime, there is a chance that some changes may have occurred. Please consult the change log/test client.
 
-    <div class="video-wrapper">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/Z3DSgCzS4To" frameborder="0" allowfullscreen></iframe>
-    </div>
+	> This video isn't available yet, but stay tunned!
 
 
 ??? example "Server & Client Defines"
