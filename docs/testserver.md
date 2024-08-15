@@ -20,4 +20,4 @@ Feedback is always welcome! If you encounter a **problem** or have a **suggestio
 
 We greatly appreciate that you are willing to take time out of your schedule to try our server.
 
- However, we also value a pleasant atmosphere and cleanliness. To obtain a test account on the client, you need to **join our Discord server** and **submit a request** to **Essex** or **Maruski** to be provided with a test account.
+ However, we also value a pleasant atmosphere and cleanliness. To obtain a test account on the client, you need to **join our Discord server** and **submit a request** to be provided with a test account.
