@@ -11,17 +11,17 @@ Prodomo relies on ==cleanliness==, ==arrangement==, and of course YOU! Below you
 ## What does the project contain?
 
 ??? success "Visual presentation of the client"
-    `last update: 1.8.2024`
+    `last update: 26.8.2024`
 
-    **Attention**! This video was recorded when the Prodomo project version was **5.3.1**. In the meantime, there is a chance that some changes may have occurred. Please consult the change log/test client.
+    **Attention**! This video was recorded when the Prodomo project version was **5.3.0**. In the meantime, there is a chance that some changes may have occurred. Please consult the change log/test client.
 
-	> This video isn't available yet, but stay tunned!
+	> Video will be available in a few days!
 
 
 ??? example "Server & Client Defines"
     **(!)** This may change in the future.
     
-    `last update: 29.7.2024`
+    `last update: 26.8.2024`
     === "Locale_inc.h"
 
         ``` c++
@@ -164,6 +164,11 @@ Prodomo relies on ==cleanliness==, ==arrangement==, and of course YOU! Below you
           // #define ENABLE_PRIVATE_SHOP_REFINE_ELEMENT
           // #define ENABLE_PRIVATE_SHOP_APPLY_RANDOM
           #endif
+		  #define ENABLE_BATTLE_PASS
+		  #define ENABLE_REWARD_SYSTEM
+          #define ENABLE_WORLD_BOSS_EVENT // World Boss Event
+          #define ENABLE_CUSTOM_INVENTORY
+          #define ENABLE_ACHIEVEMENT_SYSTEM
           #define ENABLE_SWITCHBOT
           #define ENABLE_EVENT_MANAGER
           #define __ENABLE_SHAMAN_SYSTEM__
@@ -395,6 +400,12 @@ Prodomo relies on ==cleanliness==, ==arrangement==, and of course YOU! Below you
 			#define __UDP_BLOCK__
 			#define ENABLE_RENEWAL_SHOPEX
 			#define __CASKET_PREVIEW_ENABLE__
+            #define __SKIN_SYSTEM__
+            #define ENABLE_BATTLE_PASS
+            #define ENABLE_REWARD_SYSTEM
+            #define __WORLD_BOSS_EVENT__
+            #define ENABLE_CUSTOM_INVENTORY
+            #define ENABLE_ACHIEVEMENT_SYSTEM
 
 		```
 
