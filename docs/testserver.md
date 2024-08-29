@@ -14,7 +14,7 @@ Feedback is always welcome! If you encounter a **problem** or have a **suggestio
 ## Download
 
 :octicons-bookmark-fill-24:{ .partners }[m2prodomo][prodomodownload]
-[prodomodownload]: https://easyupload.io/5f5bm3
+[prodomodownload]: https://easyupload.io/bb3j0p
 
 ## Request
 
