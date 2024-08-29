@@ -13,8 +13,10 @@ Feedback is always welcome! If you encounter a **problem** or have a **suggestio
 
 ## Download
 
-:octicons-bookmark-fill-24:{ .partners }[m2prodomo][prodomodownload]
+:octicons-bookmark-fill-24:{ .partners }[m2prodomo(easyupload)][prodomodownload]
+:octicons-stack-24:{ .partners }[m2prodomo(google-drive)][prodomodownloaddrive]
 [prodomodownload]: https://easyupload.io/bb3j0p
+[prodomodownloaddrive]: https://drive.google.com/file/d/1VQrmqyTREo0IiY1GNA9FEpA5Enw08ctX/view?usp=sharing
 
 ## Request
 
