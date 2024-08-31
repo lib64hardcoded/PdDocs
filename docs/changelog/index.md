@@ -2,6 +2,43 @@
 
 ## Commit changes to version 5
 
+### 1.0.2 <small>September 1, 2024</small> { id="1.0.2" }
+
+#### added
+
+- New Achievement System,
+- New Special Inventory System,
+- New Multi Refine system,
+- New Switchbot with addons for premium users,
+- New global & individual rewards for users,
+- New dungeons: Sung-Mahi, Queen Nethis, Alastor (White Dragon),
+- New Yohara Expansion updates: Sung-Mahi curse,
+- New Yohara Expansion updates: Yohara maps & mobs,
+- New Yohara Expansion updates: Yohara missions
+- New Battlepass,
+- New function for inventory: Toggle and search items,
+- World Boss,
+- Event Manager refactorized with new events and new UI,
+- Buffi system.
+
+
+
+#### removed
+
+- Old optimisation,
+- Old unused functions,
+- Old unused systems.
+
+#### fixed
+
+- Login Patcher - updated m2socket for web transfer,
+- Special Inventory - rewritten UseInventoryEx,
+- Switchbot code - p2p transfer rewritten,
+- Offflineshop kashmir bundle,
+- UpdateFollowAI() function has been rewritten,
+- More systems moved to x64.
+
+
 ### 1.0.1 <small>July 29, 2024</small> { id="1.0.1" }
 
 #### added
