@@ -195,7 +195,7 @@ Prodomo relies on ==cleanliness==, ==arrangement==, and of course YOU! Below you
 		#define ENABLE_ITEM_MOVE_FIX																//@@fixme015;
 		#define ENABLE_ANTIFLAG_TOOLTIP																//@@fixme016;
 		#endif
-		//@@fixmme017; be aware that 90% of source fixed are not available in define, they are already installed in pdfiles binary & server source.
+		//@@fixmme017; be aware that 90% of source fixes are not available in define, they are already installed in pdfiles binary & server source.
 
         
         ```
