@@ -25,175 +25,177 @@ Prodomo relies on ==cleanliness==, ==arrangement==, and of course YOU! Below you
     === "Locale_inc.h"
 
         ``` c++
-          #pragma once
-
-
-          #define APP_TITLE "x64 prodomo files"
-
-          #define DEFAULT_DEFINE_YMIR																	// Default define from Ymir;
-          #define PRODOMO_VERSION_4																	// Prodomo server_files_v4 binary_locale_ext_23/7/2024/6:15PM
-          #define PRODOMO_VERSION_5																	// Prodomo server_files_v5 binary_locale_ext_23/7/2024/6:15PM
-          #define PRODOMO_FIX																			// Prodomo server_files_v5 binary_locale_ext_23/7/2024/6:15PM
-          #define PRODOMO_LICENCE																		// licence active for user __ until __
-
-
-
-          #ifdef DEFAULT_DEFINE_YMIR
-          #define LOCALE_SERVICE_EUROPE																// __YM_Locale_Service__
-          #define ENABLE_COSTUME_SYSTEM																//  __YM_Costume_System__
-          #define ENABLE_ENERGY_SYSTEM																// __YM_Energy_System__
-          #define ENABLE_DRAGON_SOUL_SYSTEM															// __YM_Dragon_Soul__
-          #define ENABLE_NEW_EQUIPMENT_SYSTEM															// __YM_Equipment__
-          #endif
-          #ifdef PRODOMO_VERSION_4
-          #define ENABLE_USE_COSTUME_ATTR																// __GF_Attr__
-          #define ENABLE_SASH_SYSTEM																	// __GF_Sash&Acce_System__
-          #define ENABLE_CHANGELOOK_SYSTEM															// __GF_Transmutation__
-          #define ENABLE_QUEST_RENEWAL																// __GF_Quest_Renewal__
-          #define ENABLE_QUEST_WIDTH_EXPANSION														// __GF_Quest_Width__
-          #define ENABLE_CUBE_RENEWAL_WORLDARD														// __GF_Cube_Renewal__
-          #define ENABLE_MINI_GAME																	// __GF_New_Minigames__
-          #define ENABLE_FISH_EVENT																	// __GF_New_Minigames__
-          #define ENABLE_GRAPHIC_ON_OFF																// __GF_Reversed_Settings__
-          #define WJ_ENABLE_TRADABLE_ICON																// __GF_Tradable_Icon__
-          #define __BL_ENABLE_PICKUP_ITEM_EFFECT__													// __GF_Pickup_Effect__
-          #define __EXTENDED_SAFEBOX__																// __GF_Safebox__
-          #define ENABLE_SPECIAL_INVENTORY_SYSTEM														// __Renewal_Special_Inventory__
-          #define ENABLE_LVL115_ARMOR_EFFECT															// __GF_Armor_Effect__
-          #define ENABLE_ATLAS_MARK_INFO																// __GF_Atlas_Mark__
-          #define ENABLE_GF_ATLAS_MARK_INFO															// __GF_Atlas_Mark__
-          #define ENABLE_STONE_ON_MINIMAP																//  __GF_Atlas_Mark__
-          #define ENABLE_DETALII_RESCRISE																// __GF_View_Character_Bonuses__
-          #define ENABLE_PACK_GET_CHECK																// __Renewal_Pack_Check__
-          #define ENABLE_CANSEEHIDDENTHING_FOR_GM														// __Renewal_/inv__
-          #define ENABLE_PROTOSTRUCT_AUTODETECT														// __Renewal_Items&Mobs_Proto__
-          #define ENABLE_SLOT_WINDOW_EX																// __Renewal_Slot_Window__
-          #define ENABLE_EXTENDED_SOCKETS																// __Renewal_6_slots_sockets__
-          #define ENABLE_TOP_PLAYERS_EFFECT															// __Renewal_Top_Player_Effect__
-          #define WJ_SHOW_MOB_INFO																	// __Show_Mob_Info__
-          #ifdef WJ_SHOW_MOB_INFO																		// __Show_Mob_Info__
-          #define ENABLE_SHOW_MOBAIFLAG																// __Show_Mob_Info__
-          #define ENABLE_SHOW_MOBLEVEL																// __Show_Mob_Info__
-          #define ENABLE_NEW_MODULE_CONFIG															// __GF_Config__
-          #endif
-          #define ENABLE_NEW_EXCHANGE_WINDOW															// __GF_Exchange_Window__
-          #define ENABLE_FOV_OPTION																	// __GF_Fov__
-          #define ENABLE_HIGH_LIGHT_IMAGE																// __GF_High_Light__
-          #define ENABLE_SHOW_CHEST_DROP																// __Renewal_Show_Chest_Dropable_Items__
-          #define ENABLE_MOVE_CHANNEL																	// __Renewal_Move_Channel(1&2&3&4)__
-          #define ENABLE_SEND_TARGET_INFO																// __Renewal_Target_Info__
-          #define ENABLE_VIEW_TARGET_PLAYER_HP														// __Renewal_Target_Info__
-          #define ENABLE_VIEW_TARGET_DECIMAL_HP														// __Renewal_Target_Info__
-          #define ENABLE_SEND_TARGET_INFO_EXTENDED													// __Renewal_Target_Info__
-          #define ENABLE_REFINE_RENEWAL																// __Renewal_Refine__
-          #define ENABLE_BIOLOGIST_RENEWAL_SYSTEM														// __Renewal_Biologist__
-          #define ENABLE_MULTIFARM_BLOCK																// __Renewal_Hwid_MultiFarm_Block__
-          #define ENABLE_ADVANCE_SKILL_SELECT															// __Renewal_Skill_Select_Window__
-          #define OFFLINE_MESSAGE_REWORKED															// __Renewal_Offline_Messages__
-          #define LINK_IN_CHAT																		// __Renewal_Chat__
-          #define ENABLE_DAILY_GIFT_SYSTEM															// __Renewal_Daily_Gift__
-          #define ENABLE_HIDE_COSTUME_SYSTEM															// __Renewal_Hide_Costume__
-          #define RENEW_SCALE																			// __Renewal_Scale_Boss&Metin__
-          #define __RENEWAL_NOTICE__																	// __Renewal_Notice__
-          #define RENEWAL_PICKUP_AFFECT																// __Renewal_Pickup__
-          #define ENABLE_MESSENGER_TEAM																// __Renewal_Messenger__
-          #define ENABLE_RENEWAL_SHOPEX																// __Renewal_ShopEx__
-          #define ENABLE_DISCORD_RPC																	// __Renewal__Discord_Rpc__
-          #define ENABLE_REMOVE_LIMIT_GOLD															// __Unsigned_Long_Long_Limit_Gold__
-          #define ENABLE_EFFECT_WINGS_NEW																// __Renewal_Mde_Mse_Wings__
-          #define ENABLE_SHINING_SYSTEM																// __Renewal_Client_Shining__
-          #define ENABLE_AFFECT_RENEWAL																//  __Reworked_Affect_Renewal__
-          #define ENABLE_MOUNT_COSTUME_SYSTEM															// __Renewal_Mount_Costume__
-          #define ENABLE_WEAPON_COSTUME_SYSTEM														// __Renewal_Weapon_Costume__
-          #endif
-          #ifdef PRODOMO_VERSION_5
-          #define ENABLE_AURA_SYSTEM																	// __GF_Aura__
-          #define ENABLE_ATTR_6TH_7TH																	// __GF_6&7_Attr__
-          #define ENABLE_DRAGONSOUL_ALCHEMY_PLUS														// __GF_Mythic_Alchemy__
-          #define ENABLE_REFINE_ELEMENT																// __GF_Refine_Element_Fire&Ice&Lightning&Darkness&Earth&Wind__
-          #define ENABLE_PET_SLOT																		// __GF_Pet_Slot__
-          #define ENABLE_CONQUEROR_LEVEL																// __GF_Conqueror(Level&Map&Attr&Items&Bonuses)__
-          #define ENABLE_GLOVE_SYSTEM																	// __GF_Glove&Yohara__
-          #define BONUS_PCT																			// __GF__Proto_New_Bonuses__
-          #define NEW_BONUS																			// __GF_Metin&Boss_Bonus__
-          #define ENABLE_EXTEND_INVEN_SYSTEM															// __GF_New_Inventory(3&4Blocked)__
-          #define ENABLE_GAYA_SYSTEM																	// __GF_Gaya_System__
-          #define ENABLE_EXTEND_INVEN_SYSTEM															// __GF_3&4_Blocked_Inventory__
-          #define ENABLE_SHIP_DEFENSE																	// __GF_Hydra__
-          #define VERSION_162_ENABLED																	// __GF_Meley_Lair__
-          #define ENABLE_MELEY_LAIR_DUNGEON															//__GF_Meley_Lair__
-          #ifdef ENABLE_MELEY_LAIR_DUNGEON															//__GF_Meley_Lair__
-          #define MELEY_LAIR_DUNGEON_STATUE 6118														//__GF_Meley_Lair__
-          #endif
-          #define __NEW_SET_BONUS__																	// __GF_Costume&Sash&Aura&Item_BonusSet__
-          #define ELEMENT_TARGET																		// __GF_17.5_ELEMENT_ON_TARGET__
-          #define ENABLE_SHOW_LIDER_AND_GENERAL_GUILD													// __Show_Leader_Coleader_Guild_System__
-          #define ENABLE_SHOW_LIDER_AND_GENERAL_GUILD_VALUE1 "Leader - "								// __Show_Leader_Coleader_Guild_System__
-          #define ENABLE_SHOW_LIDER_AND_GENERAL_GUILD_VALUE2 "Co-Leader - "							// __Show_Leader_Coleader_Guild_System__
-          #define ENABLE_PREMIUM_PLAYERS																// __Premium_System__
-          #define __BL_MOUSE_WHEEL_TOP_WINDOW__														// __NEW PICK_UP_FILTER__
-          #define __BL_CLIP_MASK__																	// __NEW PICK_UP_FILTER__
-          #define ENABLE_MULTI_LANGUAGE_SYSTEM														// __Renewal_11Languages_MultiLanguage__
-          #define ENABLE_EXTENDED_WHISPER_DETAILS														// __Renewal_11Languages_MultiLanguage__&&__Whisper_Details_For_MultiLanguage__
-          #define LOCALE_STRING_RENEWAL																// __GF_Locale_String_Renewal&Adapted_for_MultiLanguage
-          #define ENABLE_TEXT_LEVEL_REFRESH															// __Renewal_Buffi__
-          #define ALIGN_SYSTEM_CUSTOM																	// __Renewal_Special_Align__
-          #define ENABLE_GUILD_BONUSES																// __Renewal_Special_Guild_Bonuses__
-          #define __AUTO_QUQUE_ATTACK__																// __Renewal_Auto_Metin_Farm__
-          #define ENABLE_GLOBAL_CHAT																	// __Renewal_Global_Chat__
-          #define ENABLE_SPECIAL_DROP_CHAT_RENEWAL
-          #define ENABLE_7AND8TH_SKILLS
-          #define ENABLE_MULTI_TEXTLINE																// Multi Text Line with \ntext
-          #define ENABLE_EXPRESSING_EMOTION
-          #define ENABLE_EMOTION_HIDE_WEAPON
-          #define NEW_LOCALE																			// Reworked client_locale functions locale_game,locale_interface,item_proto,mob_proto,client_read
-          #define __DUNGEON_INFO__																	// New _Dungeon_Info_ with notifications&hide_functions
-          #define ENABLE_INVENTORY_PROTECTED_SYSTEM
-          #define ENABLE_PREMIUM_PRIVATE_SHOP
-          #ifdef ENABLE_PREMIUM_PRIVATE_SHOP
-          #define ENABLE_PRIVATE_SHOP_PREMIUM_TIME
-          //#define ENABLE_PRIVATE_SHOP_BUNDLE_REQ
-          // #define ENABLE_PRIVATE_SHOP_CHEQUE
-          #define ENABLE_PRIVATE_SHOP_LIMITED_DISTANCE_RENDERING
-          //#define ENABLE_PRIVATE_SHOP_BUILD_LIMITATIONS
-          #define ENABLE_PRIVATE_SHOP_LOCKED_SLOTS
-          // #define ENABLE_PRIVATE_SHOP_PRICE_SORT
-          #define ENABLE_PRIVATE_SHOP_TIME_SORT
-          #define ENABLE_PRIVATE_SHOP_DIFFERENT_PRICE_RESTRICTION
-          // #define ENABLE_PRIVATE_SHOP_CHANGE_LOOK
-          // #define ENABLE_PRIVATE_SHOP_REFINE_ELEMENT
-          // #define ENABLE_PRIVATE_SHOP_APPLY_RANDOM
-          #endif
-		  #define ENABLE_BATTLE_PASS
-		  #define ENABLE_REWARD_SYSTEM
-          #define ENABLE_WORLD_BOSS_EVENT // World Boss Event
-          #define ENABLE_CUSTOM_INVENTORY
-          #define ENABLE_ACHIEVEMENT_SYSTEM
-          #define ENABLE_SWITCHBOT
-          #define ENABLE_EVENT_MANAGER
-          #define __ENABLE_SHAMAN_SYSTEM__
-          #ifdef __ENABLE_SHAMAN_SYSTEM__
-          #define SHAMAN_MOB_VNUM 20114
-          #endif
-          #endif
-          #ifdef PRODOMO_FIX
-          #define heavyeffectfix																		// __Fix__
-          #define FIX_UPDATE_LEVEL																	// __Fix__
-          #define FIX_UPDATE_PLAYTIME_AND_ITEMS														// __Fix__
-          #define FIX_CHAT_HISTORY_UPDATE																// __Fix__
-          #define FIX_CONNECT																			// __Fix__
-          #define FIX_DELETE_FRIEND_REFRESH															// __Fix__
-          #define __ENABLE_STEALTH_FIX__																// __Fix__
-          #define FIX_UNHANDLED_EMPTY_TEXTURESET														// __Fix__
-          #define FIX_PLAYERS_LOAD																	// __Fix__
-          #define ENABLE_FAST_DROP																	// __Fix__
-          #define DISABLE_FONT_ITALIC_GM																// __Fix__
-          #define ENABLE_MOVEMENT_FIX																	// __Fix__
-          #define ENABLE_SOME_FIXES																	// __Fix__
-          #define ENABLE_CLIENT_MEMORY_LEAK_AND_CPU_USAGE_FIX											// __Fix__
-          #define ENABLE_ITEM_MOVE_FIX																// __Fix__
-          #define ENABLE_ANTIFLAG_TOOLTIP																// __Fix__
-          #endif
+		#pragma once
+		
+		
+		#define APP_TITLE "PDFiles"
+		
+		#define DEFAULT_DEFINE_YMIR																	//@@ Default define from Ymir;
+		#define PRODOMO_VERSION_4																	//@@ Prodomo server_files_v4 binary_locale_ext_1/8/2024/22:00PM
+		#define PRODOMO_VERSION_5																	//@@ Prodomo server_files_v5 binary_locale_ext_1/8/2024/22:00PM
+		#define PRODOMO_FIX																			//@@ Prodomo server_files_v5 binary_locale_ext_1/8/2024/22:00PM
+		#define PRODOMO_LICENCE																		//@@ licence active for user __ until __
+		
+		
+		
+		#ifdef DEFAULT_DEFINE_YMIR
+		#define LOCALE_SERVICE_EUROPE																//@@ ymir clasic locale service europe..
+		#define ENABLE_COSTUME_SYSTEM																//@@ ymir clasic costume system..
+		#define ENABLE_ENERGY_SYSTEM																//@@ ymir clasic energy system..
+		#define ENABLE_DRAGON_SOUL_SYSTEM															//@@ ymir clasic legendary alchemy system..
+		#define ENABLE_NEW_EQUIPMENT_SYSTEM															//@@ ymir refactorized equipment
+		#endif
+		
+		
+		#ifdef PRODOMO_VERSION_4
+		#define ENABLE_USE_COSTUME_ATTR																//@@ refactorized attribute (add&change) for costume(weapon, head, body)
+		#define ENABLE_SASH_SYSTEM																	//@@ gf acce&sash system with new absorbtion method
+		#define ENABLE_CHANGELOOK_SYSTEM															//@@ gf transmutation system adapted for offlineshop & shopex
+		#define ENABLE_QUEST_RENEWAL																//@@ gf quest renewal with automatic refresh
+		#define ENABLE_QUEST_WIDTH_EXPANSION														//@@ gf quest width fixed for next/prev buttons
+		#define ENABLE_CUBE_RENEWAL_WORLDARD														//@@ gf cube renewal adapted for moving attr & cheque & gaya
+		#define ENABLE_MINI_GAME																	//@@ gf official minigames (Fish, Rumy, World Boss, Catch the King, etc..)
+		#define ENABLE_FISH_EVENT																	//@@ gf official fish minigame 
+		#define ENABLE_GRAPHIC_ON_OFF																//@@ gf official option settings (shadows, effects, etc..)
+		#define WJ_ENABLE_TRADABLE_ICON																//@@ gf reversed tradable icon
+		#define __BL_ENABLE_PICKUP_ITEM_EFFECT__													//@@ gf reversed ActivateSlot function renewal (Flash, New Colours)
+		#define __EXTENDED_SAFEBOX__																//@@ gf reversed 6 pages slots for SafeBox, ItemShop.
+		#define ENABLE_LVL115_ARMOR_EFFECT															//@@ gf reversed 115 armour thunder effect
+		#define ENABLE_ATLAS_MARK_INFO																//@@ gf related Atlas Mark Renewal (1)
+		#define ENABLE_GF_ATLAS_MARK_INFO															//@@ gf related Atlas Mark Renewal (2)
+		#define ENABLE_STONE_ON_MINIMAP																//@@ gf related Atlas Mark Renewal (3)
+		#define ENABLE_DETALII_RESCRISE																//@@ gf reversed show character bonus info
+		#define ENABLE_PACK_GET_CHECK																//@@ gf reversed pack check
+		#define ENABLE_CANSEEHIDDENTHING_FOR_GM														//@@ gf related renewal & refac /invsible for Game Master
+		#define ENABLE_PROTOSTRUCT_AUTODETECT														//@@ gf related auto detection of proto (item&mob) structure
+		#define ENABLE_SLOT_WINDOW_EX																//@@ gf reversed slot window (adapted for InventoryWindowEx)
+		#define ENABLE_EXTENDED_SOCKETS																//@@ refactor 6 sockets for stones (by default 3)
+		#define ENABLE_TOP_PLAYERS_EFFECT															//@@ renewal effects (Battle Zone) for top players (1, 2, 3) -> those who achieve max level
+		#define WJ_SHOW_MOB_INFO																	//@@ gf related mob info (level, target, bonus) [1]
+		#ifdef WJ_SHOW_MOB_INFO																		//@@ gf related mob info (level, target, bonus) [2]
+		#define ENABLE_SHOW_MOBAIFLAG																//@@ gf related mob info (level, target, bonus) [3]
+		#define ENABLE_SHOW_MOBLEVEL																//@@ gf related mob info (level, target, bonus) [4]
+		#define ENABLE_NEW_MODULE_CONFIG															//@@ gf related config.exe adapted for multi language
+		#endif
+		#define ENABLE_NEW_EXCHANGE_WINDOW															//@@ gf related new exchange window
+		#define ENABLE_FOV_OPTION																	//@@ renewal Field Of View option where you can set your POV in-game.
+		#define ENABLE_HIGH_LIGHT_IMAGE																//@@ renewal highlight image inside quest & system function
+		#define ENABLE_MOVE_CHANNEL																	//@@ renewal channel change adapted for new optimisation -> you will cannot use your inventory while you're teleporting & changing channel (p2p transfer still available)
+		#define ENABLE_SEND_TARGET_INFO																//@@ renewal target info for players (Bonus, Target, new HP info) [1]
+		#define ENABLE_VIEW_TARGET_PLAYER_HP														//@@ renewal target info for players (Bonus, Target, new HP info) [2]
+		#define ENABLE_VIEW_TARGET_DECIMAL_HP														//@@ renewal target info for players (Bonus, Target, new HP info) [3]
+		#define ENABLE_SEND_TARGET_INFO_EXTENDED													//@@ renewal target info for players (Bonus, Target, new HP info) [4]
+		#define ENABLE_BIOLOGIST_RENEWAL_SYSTEM														//@@ renewal biologist missions & system -> New UI, more easy to configure new missions & bonuses & items for completing the mission. ([!] Still moving it to .xml) 
+		#define ENABLE_MULTIFARM_BLOCK																//@@ renewal multi farm block based on HWID, 3 accounts max for farm & fish & mining
+		#define ENABLE_ADVANCE_SKILL_SELECT															//@@ renewal and easy to use skill select, no quest needed.
+		#define OFFLINE_MESSAGE_REWORKED															//@@ renewal offline messages stored for up to 7 days, cached and safe
+		#define LINK_IN_CHAT																		//@@ renewal link in chat -> Adapted for auxiliary ctrl+x, select, copy, paste.
+		#define ENABLE_DAILY_GIFT_SYSTEM															//@@ Author:__OWSAP__, new daily gift, automatic renewal after 7 days
+		#define ENABLE_HIDE_COSTUME_SYSTEM															//@@ renewal hide costume for costume body, costume hair, costume weapon, costume acce&sash, costume aura
+		#define RENEW_SCALE																			//@@ renewal scaling for Mounts & Pets & Metin Stones & Bosses & Effects.
+		#define __RENEWAL_NOTICE__																	//@@ renewal animation for notice, full_notice, b_notice.
+		#define RENEWAL_PICKUP_AFFECT																//@@ renewal pickup affect with settings for premium & nonpremium users.
+		#define ENABLE_MESSENGER_TEAM																//@@ renewal notification for game master available.
+		#define ENABLE_RENEWAL_SHOPEX																//@@ renewal shop ex with 4 tabs (E.G: Items needed to buy Sword+0 -> 4x White pearl, 4x Blue pearl, 4x Red pearl + 100.000 yang)
+		#define ENABLE_DISCORD_RPC																	//@@ renewal discord rpc
+		#define ENABLE_REMOVE_LIMIT_GOLD															//@@ new method for removing the 2.000.000.000 yang -> uint32_t (unsigned long long)
+		#define ENABLE_EFFECT_WINGS_NEW																//@@ new method for reading the .mse and .mde wings
+		#define ENABLE_SHINING_SYSTEM																//@@ new method for loading the shinings for weapons & armours (client only)
+		#define ENABLE_AFFECT_RENEWAL																//@@ new method for storing & loading the affects
+		#define ENABLE_MOUNT_COSTUME_SYSTEM															//@@ renewal mount costume (proto)
+		#define ENABLE_WEAPON_COSTUME_SYSTEM														//@@ renewal weapon costume (proto)
+		#endif
+		
+		#ifdef PRODOMO_VERSION_5
+		#define ENABLE_AURA_SYSTEM																	//@@ Author:__P3NG3R__, reversed aura system
+		#define ENABLE_ATTR_6TH_7TH																	//@@ reversed 6&7 attr system adapted for talisman & gloves
+		#define ENABLE_DRAGONSOUL_ALCHEMY_PLUS														//@@ reversed mythic alchemy with new table
+		#define ENABLE_REFINE_ELEMENT																//@@ reversed refine element for weapons (Wind, Lightning, Earth, Darkness and Fire)
+		#define ENABLE_PET_SLOT																		//@@ reversed pet slot with active slot effect
+		#define ENABLE_CONQUEROR_LEVEL																//@@ reversed Yohara expansion (Level, Dungeons, Bonuses, Character Development[Weapons, Armours, Gloves, Misc.], Maps, etc..)
+		#define ENABLE_GLOVE_SYSTEM																	//@@ reversed Yohara expansion (Level, Dungeons, Bonuses, Character Development[Weapons, Armours, Gloves, Misc.], Maps, etc..)
+		#define BONUS_PCT																			//@@ reversed Yohara expansion (Level, Dungeons, Bonuses, Character Development[Weapons, Armours, Gloves, Misc.], Maps, etc..)
+		#define NEW_BONUS																			//@@ reversed Yohara expansion (Level, Dungeons, Bonuses, Character Development[Weapons, Armours, Gloves, Misc.], Maps, etc..)
+		#define ENABLE_EXTEND_INVEN_SYSTEM															//@@ reversed official inventory (2 slots available, 3&4 blocked.)
+		#define ENABLE_GAYA_SYSTEM																	//@@ reversed gaya system with automatic renewal
+		#define ENABLE_SHIP_DEFENSE																	//@@ [Dungeon related]: o Hydra dungeon
+		#define VERSION_162_ENABLED																	//@@ [Dungeon related]: o Meley dungeon[1]
+		#define ENABLE_MELEY_LAIR_DUNGEON															//@@ [Dungeon related]: o Meley dungeon[2]
+		#ifdef ENABLE_MELEY_LAIR_DUNGEON															//@@ [Dungeon related]: o Meley dungeon[3]
+		#define MELEY_LAIR_DUNGEON_STATUE 6118														//@@ [Dungeon related]: o Meley dungeon[4]
+		#endif
+		#define __NEW_SET_BONUS__																	//@@ reversed set bonus (https://ro-wiki.metin2.gameforge.com/index.php/Set_Bonus)
+		#define ELEMENT_TARGET																		//@@ reversed 17.5 element on target (Wind, Lightining, Fire, Ice)
+		#define ENABLE_SHOW_LIDER_AND_GENERAL_GUILD													//@@ related for guild, this will show the leader & coleader[1]
+		#define ENABLE_SHOW_LIDER_AND_GENERAL_GUILD_VALUE1 "Leader - "								//@@ related for guild, this will show the leader & coleader[2]
+		#define ENABLE_SHOW_LIDER_AND_GENERAL_GUILD_VALUE2 "Co-Leader - "							//@@ related for guild, this will show the leader & coleader[3]
+		#define ENABLE_PREMIUM_PLAYERS																//@@ renewal premium system with image tag, new bonuses and new features available for premium players
+		#define __BL_MOUSE_WHEEL_TOP_WINDOW__														//@@ Author:__blackdragonx61__, mouse scroll function
+		#define __BL_CLIP_MASK__																	//@@ Author:__blackdragonx61__, smooth mouse scroll function
+		#define ENABLE_MULTI_LANGUAGE_SYSTEM														//@@ refactorized multi language made with new c++20 functions (transl. is loaded from client)
+		#define LOCALE_STRING_RENEWAL																//@@ Author:blackdragonx61, reversed locale string reading adapted for multi language (locale interface, locale game, locale string, locale quiz, locale ox ->l from client)
+		#define ENABLE_TEXT_LEVEL_REFRESH															//@@ refactorized and adapted for shaman support, now the text (not only the level) is inst. refreshing
+		#define ALIGN_SYSTEM_CUSTOM																	//@@ renewal bonus for align (When you achieve 1.000, 2.000, 5.000, 10.000, 20.000 +/- align points you will receive a bonus / curse)
+		#define ENABLE_GUILD_BONUSES																//@@ renewal bonus for guilds (When you achieve a certain guild level every member will receive a special bonus)
+		#define ENABLE_GLOBAL_CHAT																	//@@ related to chat, now you will see language flag, empire flag, PM option in every shout / message typed in chat.
+		#define ENABLE_7AND8TH_SKILLS                                                               //@@ related to skills, now you can choose between 2 passive skills (gf like)
+		#define ENABLE_MULTI_TEXTLINE																//@@ \n text line
+		#define ENABLE_EXPRESSING_EMOTION                                                           //@@ reversed emotions
+		#define ENABLE_EMOTION_HIDE_WEAPON                                                          //@@ related to emotions, now your weapon will be hided when you emote
+		#define NEW_LOCALE																		    //@@ related to multi language and new locale now the locale folder is more arranged and clean -> translations are renamed by their language (locale_interface-> ro.txt, en.txt, it.txt, etc..)
+		#define __DUNGEON_INFO__																	//@@ renewal dungeon information window with test dungeon, shop dungeon, hide dungeon, arrange dungeons.
+		#define ENABLE_INVENTORY_PROTECTED_SYSTEM                                                   //@@ related to inventory, this is a new protection made for your character, whenever your IP changes or a new connection is made your inventory is automaticaly blocked (basic password for your inventory is 999999 but you can change it in-game).
+		
+		#define ENABLE_PREMIUM_PRIVATE_SHOP                                                         //@@ renewal & rewritten offlineshop system[1]
+		#ifdef ENABLE_PREMIUM_PRIVATE_SHOP                                                          //@@ renewal & rewritten offlineshop system[2]
+		#define ENABLE_PRIVATE_SHOP_PREMIUM_TIME                                                    //@@ related to offlineshop time, when you activate premium your offlineshop will last for 7 days offline
+		#define ENABLE_PRIVATE_SHOP_LIMITED_DISTANCE_RENDERING                                      //@@ related to optimisation, now the shops will render in a certain area
+		#define ENABLE_PRIVATE_SHOP_LOCKED_SLOTS                                                    //@@ related to offlineshop slots, only the first page is unlocked, if you want to unlock the second page you will need a certain amount of keys
+		#define ENABLE_PRIVATE_SHOP_TIME_SORT                                                       //@@ related to offlineshop time the search shop will not filter and sort items.
+		#define ENABLE_PRIVATE_SHOP_DIFFERENT_PRICE_RESTRICTION                                     //@@ related to offlineshop economy you will cannot sell 90% below the market price.
+		//@@ (ENABLE_PRIVATE_SHOP_BUNDLE_REQ):                                                      //@@ related to shop decoration, without a kashmere bundle you will cannot decorate your shop
+		//@@ (ENABLE_PRIVATE_SHOP_CHEQUE):                                                          //@@ related to shop currency now you can trade Chequue(WON)
+		//@@ (ENABLE_PRIVATE_SHOP_PRICE_SORT):                                                      //@@ related to shop currency with this setting the search-shop will sort the items by their price (lowest-highest)
+		//@@ (ENABLE_PRIVATE_SHOP_BUILD_LIMITATIONS):                                               //@@ related to shop build, with this setting you will cannot open a shop in another empire, map
+		//@@ (ENABLE_PRIVATE_SHOP_CHANGE_LOOK):                                                     //@@ related to shop items, this setting will adapt your offlineshop system for change_look system
+		//@@ (ENABLE_PRIVATE_SHOP_REFINE_ELEMENT):                                                  //@@ related to shop items, this setting will adapt your offlineshop system for refine_element system
+		//@@ (ENABLE_PRIVATE_SHOP_APPLY_RANDOM):                                                    //@@ related to shop items, this setting will adapt your offlineshop system for apply_random system
+		#endif
+		
+		#define ENABLE_SWITCHBOT                                                                    //@@ renewal switchbot adapted for premium users, with only 3/5 unlocked slots, 5/5 for premium users, normal changing speed for generic users, faster changing speed for premium users
+		#define ENABLE_EVENT_MANAGER                                                                //@@ renewal event manager with new events (Experience Event, Item_Drop Event, Boss Event, Metin Event, Mining Event, Gold_Frog Event, Moonlight Event, Hexagonal Chest Event, Fishing Event, Hide and Seek Evennt, OX Event, Tanaka Event, War between Kingdoms Event)
+		#define __ENABLE_SHAMAN_SYSTEM__                                                            //@@ renewal & rewritten shaman support system adapted for premium with 4/6 skills available, 6/6 for premium users ([!]Still in development: Shaman Support Costume, Shaman Support Skill Color)
+		#ifdef __ENABLE_SHAMAN_SYSTEM__                                                             //@@ renewal & rewritten shaman support system adapted for premium with 4/6 skills available, 6/6 for premium users ([!]Still in development: Shaman Support Costume, Shaman Support Skill Color)
+		#define SHAMAN_MOB_VNUM 20114                                                               //@@ renewal & rewritten shaman support system adapted for premium with 4/6 skills available, 6/6 for premium users ([!]Still in development: Shaman Support Costume, Shaman Support Skill Color)
+		#endif
+		#define ENABLE_BATTLE_PASS                                                                  //@@ renewal & rewritten battlepass system with new UI and new functions for premium & normal users, easy to configure and set
+		#define ENABLE_WORLD_BOSS_EVENT                                                             //@@ reversed world boss event easy to configure boss VNUM, map INDEX, spawn rate and awards
+		#define ENABLE_CUSTOM_INVENTORY                                                             //@@ rewritten special inventory with new slots and new functions (Chests, Books, Stones, Special Items, Wardrobe, Safebox&Itemshop), (Fast move from special inventory to inventory, fast equip, fast delete, etc..)
+		#define ENABLE_ACHIEVEMENT_SYSTEM                                                           //@@ rewritten & renewal achievement system, operates in XML, making it extremely easy to use and modify. You have a multitude of quests to complete throughout your progression on the server. The title system is integrated into the achievement system. By completing certain achievements, you will unlock titles for your character.
+		#define REFACTOR_MULTIREFINE                                                                //@@ renewal multi refine, this system is designed in such a way that it does not disrupt the market nor render the crafting system obsolete. The Multi Refine system aims to improve both the design and functionality of the classic refining system.
+		#endif
+		
+		
+		
+		#ifdef PRODOMO_FIX
+		#define heavyeffectfix																		//@@fixme001;
+		#define FIX_UPDATE_LEVEL																	//@@fixme002;
+		#define FIX_UPDATE_PLAYTIME_AND_ITEMS														//@@fixme003;
+		#define FIX_CHAT_HISTORY_UPDATE																//@@fixme004;
+		#define FIX_CONNECT																			//@@fixme005;
+		#define FIX_DELETE_FRIEND_REFRESH															//@@fixme006;
+		#define __ENABLE_STEALTH_FIX__																//@@fixme007;
+		#define FIX_UNHANDLED_EMPTY_TEXTURESET														//@@fixme008;
+		#define FIX_PLAYERS_LOAD																	//@@fixme009;
+		#define ENABLE_FAST_DROP																	//@@fixme010;
+		#define DISABLE_FONT_ITALIC_GM																//@@fixme011;
+		#define ENABLE_MOVEMENT_FIX																	//@@fixme012;
+		#define ENABLE_SOME_FIXES																	//@@fixme013;
+		#define ENABLE_CLIENT_MEMORY_LEAK_AND_CPU_USAGE_FIX											//@@fixme014;
+		#define ENABLE_ITEM_MOVE_FIX																//@@fixme015;
+		#define ENABLE_ANTIFLAG_TOOLTIP																//@@fixme016;
+		#endif
+		//@@fixmme017; be aware that 90% of source fixed are not available in define, they are already installed in pdfiles binary & server source.
 
         
         ```
