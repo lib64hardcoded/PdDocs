@@ -7,7 +7,7 @@
     **Attention**! This video was recorded when the Prodomo project version was **5.3**. In the meantime, there is a chance that some changes may have occurred.
 
     <div class="video-wrapper">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/WrvAWIUuloo" frameborder="0" allowfullscreen></iframe>
+    <iframe width="1280" height="720" src="https://www.youtube.com/embed/1jMyvQwXXX8" frameborder="0" allowfullscreen></iframe>
     </div>
 
 ## Server Installation
