@@ -454,7 +454,6 @@ graph LR
 | Upgrade from Version      |     | Upgrade to version                      | Price
 | :---------: | :----------------------------------: | :----------------------------------:| :----------------------------------:
 | Version 4 | :octicons-chevron-right-24: | Version 5.3(L) | **200€**
-| Version 5.1;2 | :octicons-chevron-right-24: | Version 5.3(L) | **{--150--}€ -> {++100++}€**
 
 </center>
 
