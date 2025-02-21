@@ -21,7 +21,7 @@ Prodomo relies on ==cleanliness==, ==arrangement==, and of course YOU! Below you
 ??? example "Server & Client Defines"
     **(!)** This may change in the future.
     
-    `last update: 2.9.2024`
+    `last update: 21.2.2025`
     === "Locale_inc.h"
 
         ``` c++
