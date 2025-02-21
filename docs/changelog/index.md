@@ -44,8 +44,6 @@
 - The **new optimization** efficiently stores GR2 files in memory, enabling faster and more efficient loading without overloading the player's RAM.
 - A new **Battle Pass system** has been added, featuring three new functions: Free, Premium, and Skip Mission.
 - The missions are categorized into three types: Daily, Weekly, and Monthly.
-- Completing missions grants EXP, which unlocks both Free and Premium rewards.
-- The missions are easily configurable.
 
 
 #### removed
@@ -70,7 +68,7 @@
 
 #### fixed
 
-- The old version occasionally caused random client crashes, either at unexpected moments or when launching the client.
+- The old optimisation version occasionally caused random client crashes, either at unexpected moments or when launching the client.
 - We learn from our mistakes, and recently, we have had both the luck and misfortune of having to fix numerous optimization and system-related issues.
 - Fixes have been applied to the Offline Shop system.
 - Fixes have been implemented for the Shop / Shopex system.
