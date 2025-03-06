@@ -15,7 +15,7 @@ Prodomo relies on ==cleanliness==, ==arrangement==, and of course YOU! Below you
 
     **Attention**! This video was recorded when the Prodomo project version was **5.3.0**. In the meantime, there is a chance that some changes may have occurred. Please consult the change log/test client.
 
-	> Video will be available in a few days!
+	> Video will be available tomorrow.
 
 
 ??? example "Server & Client Defines"
