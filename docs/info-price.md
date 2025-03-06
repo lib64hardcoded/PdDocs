@@ -11,7 +11,7 @@ Prodomo relies on ==cleanliness==, ==arrangement==, and of course YOU! Below you
 ## What does the project contain?
 
 ??? success "Visual presentation of the client"
-    `last update: 21.2.2025`
+    `last update: 6.3.2025`
 
     **Attention**! This video was recorded when the Prodomo project version was **5.3.0**. In the meantime, there is a chance that some changes may have occurred. Please consult the change log/test client.
 
@@ -21,7 +21,7 @@ Prodomo relies on ==cleanliness==, ==arrangement==, and of course YOU! Below you
 ??? example "Server & Client Defines"
     **(!)** This may change in the future.
     
-    `last update: 21.2.2025`
+    `last update: 6.3.2025`
     === "Locale_inc.h"
 
         ``` c++
