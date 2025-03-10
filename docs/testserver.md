@@ -13,13 +13,11 @@ Feedback is always welcome! If you encounter a **problem** or have a **suggestio
 
 ## Download
 
-:octicons-bookmark-fill-24:{ .partners }[m2prodomo(mega)][prodomodownload]
-:octicons-stack-24:{ .partners }[m2prodomo(google-drive)][prodomodownloaddrive]
-[prodomodownload]: https://mega.nz/file/rYwDyAoa#eOp_0YovpagxOeIMm7p_QZUmgpIJt9OVltpDovmSeuI
-[prodomodownloaddrive]: https://drive.google.com/file/d/1smyRTAnDSpGpfikjaBijJ8kyyKeQ5CjD/view?usp=sharing
+:octicons-bookmark-fill-24:{ .partners }[dashboard.prodomo-files][prodomodownload]
+[prodomodownload]: https://dashboard.prodomo-files.com
 
 ## Request
 
 We greatly appreciate that you are willing to take time out of your schedule to try our server.
 
- However, we also value a pleasant atmosphere and cleanliness. To obtain a test account on the client, you need to **join our Discord server** and **submit a request** to be provided with a test account.
+ However, we also value a pleasant atmosphere and cleanliness. To obtain a test account on the client, you need to **join our Discord server** and **complete the request form** to be provided with a test account (You will receive a username and a password that you can use to log in to the dashboard and download the test client).
